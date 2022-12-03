@@ -2,7 +2,7 @@ package com.coreprogram;
 import java.util.Scanner;
 
 public class PowerOfNumber {
-    public static void Power(int num){
+     static void Power(int num){
         int a=1, b=(int) Math.pow(2,num);
         if(num >=0 && num < 31) {
             while (a < b) {
